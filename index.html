@@ -15,16 +15,22 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- font intregrated -->
+    <!-- font intregrated -->
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
 
 
 
@@ -35,47 +41,180 @@
 
     <!-- navbar -->
     <section>
+        <section>
+            <div class="bg-[#422ad5]/50 p-4">
 
-        <div class="flex  bg-[#422ad5]/50 items-center justify-between p-4">
-            <div class="flex pl-4 pr-7 p-3 items-center">
+                <div class="flex items-center justify-between">
 
-                <h1 class="font-bold text-xl">English</h1>
-                <img src="./english-janala-resources/assets/logo.png" alt="">
+                    <!-- Logo -->
+                    <div class="flex items-center gap-2">
+                        <h1 class="font-bold text-lg text-white">English</h1>
+                        <img src="/assets/logo.png" class="w-8 h-8" alt="">
+                        <h1 class="font-bold text-lg text-white">জানালা</h1>
+                    </div>
 
+                    <!-- Desktop Menu -->
+                    <div class="hidden md:flex gap-3">
+                        <button class="btn btn-primary">FAQ</button>
+                        <button class="btn btn-primary">Learn</button>
+                        <button class="btn btn-primary">Logout</button>
+                    </div>
+
+                    <!-- Mobile Menu  -->
+                    <details class="md:hidden relative">
+                        <summary class="btn btn-primary text-xl cursor-pointer list-none">
+                            <i class="fa-solid fa-bars"></i>
+                        </summary>
+
+                        <!-- Dropdown -->
+                        <div class="absolute right-0 mt-2 flex flex-col gap-2 bg-white p-3 rounded-lg shadow-lg">
+                            <button class="btn btn-primary w-full">FAQ</button>
+                            <button class="btn btn-primary w-full">Learn</button>
+                            <button class="btn btn-primary w-full">Logout</button>
+                        </div>
+                    </details>
+
+                </div>
             </div>
-            <div class="flex gap-3">
-
-                <button class="btn btn-primary p-3 font-semibold text-xl"><i class="fa-solid fa-question"></i>
-                    FAQ</button>
-                <button class="btn btn-primary p-3 font-semibold text-xl"><i class="fa-solid fa-book"></i>
-                    Learn</button>
-
-                    <button class="btn btn-primary font-semibold text-xl"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</button>
-               
+        </section>
 
 
 
-            </div>
-        </div>
 
         <!-- text-div and login div  -->
 
-    </section>
+        <section class=" flex flex-col-reverse justify-between items-center mt-15 w-11/12 mx-auto md:flex-row ">
 
-    <section>
+            <div class="content text-center md:text-left">
+                <h2 class="text-4xl font-bold mb-6"><span class="text-[#00BCFF]">English </span>is Easy!</h2>
+                <p class="text-2xl font-semibold font-bangla">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন
+                    হন অথবা <br> আপনার
+                    দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে <br> অন্য একটি Level এ</p>
 
-    </section>
+                <form action="" class="m-3 ">
+                    <input class="mb-3 rounded-sm p-2 text-xl font-semibold" placeholder="Enter Your Name "
+                        type="text"><br>
+                    <input class="mb-3 rounded-sm p-2 text-xl font-semibold" placeholder="Enter Your Password"
+                        type="text"><br>
+                    <button class="btn btn-primary w-45 rounded-sm p-2">Get started </button>
 
-    <section>
 
-    </section>
+                </form>
+            </div>
+            <div class="image">
+                <img src="./assets/hero-student.png" alt="">
+            </div>
 
-    <section>
 
-    </section>
 
-    <!-- styleshhet -->
-     <link rel="stylesheet" href="style.css">
+        </section>
+        <!-- all level section  -->
+        <section>
+
+            <h1 class="text-4xl font-bold mb-6 text-center items-center"><span class="text-[#00BCFF]">Let's</span> Learn
+                Vocabularies</h1>
+
+            <div id="level-Container" class="flex flex-wrap gap-3 mx-auto justify-center ">
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+
+        <!-- search section -->
+
+
+        <div class="join flex justify-center items-center mx-auto my-10 font-bold text-md">
+  <div>
+    <label class="input validator join-item ">
+     
+      <input type="text" id="inputId" placeholder="Search Vocabularies Here" required />
+    </label>
+  </div>
+  <button id="btn-search" class="btn  btn-primary join-item">Search</button>
+</div>
+         <!-- flex justify-center items-center mx-auto my-10 font-bold text-md" -->
+
+
+        <!-- section of spinner  -->
+
+        <section>
+            <div id="spinerId" class="mx-auto flex items-center justify-center hidden py-10 ">
+                <span class="loading loading-bars loading-xl"></span>
+            </div>
+        </section>
+
+        <!-- all word section  -->
+
+        <section id="wordContainer" class="w-11/12 mx-auto  my-10 grid grid-cols-3 gap-5 h-[180px] bg-gray-50">
+
+
+            <div class="text-center  col-span-full rounded-xl p-10 ">
+                <p class="font-bold text-xl mb-6">আপনি এখনো কোন Lesson Select করেন ন</p>
+                <h1 class="font-bold  text-xl ">একটি Lesson Select করুন।</h1>
+            </div>
+
+
+
+
+        </section>
+
+
+        <!-- {
+"status": true,
+"message": "successfully fetched a word details",
+"data": {
+"word": "Eager",
+"meaning": "আগ্রহী",
+"pronunciation": "ইগার",
+"level": 1,
+"sentence": "The kids were eager to open their gifts.",
+"points": 1,
+"partsOfSpeech": "adjective",
+"synonyms": [
+"enthusiastic",
+"excited",
+"keen"
+],
+"id": 5
+}
+} -->
+
+
+        <!-- add modal -->
+        <!-- Open the modal using ID.showModal() method -->
+        <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+        <dialog id="Word_container" class="modal modal-bottom sm:modal-middle">
+            <div class="modal-box">
+                <div id="detailsContainer">
+
+                </div>
+
+                <div class="modal-action">
+                    <form method="dialog">
+
+
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn">Close</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
+
+        <!-- script add -->
+        <script src="/functionality.js"></script>
+
+        <!-- styleshhet -->
+
+
+
+
 </body>
 
 </html>
